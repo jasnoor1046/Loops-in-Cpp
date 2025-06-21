@@ -1,0 +1,9 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main() {
+    while('1'<'2')
+    cout<<"In the while loop"<<endl;
+}
+OUTPUT: firstly the condition will be checked which will always be true, 1 and 2 here will be converted
+in their ascii values which becomes 10 < 11, this condition will remain the same and "In the while loop
+will be printed infinitly. 
