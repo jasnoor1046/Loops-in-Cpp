@@ -1,0 +1,81 @@
+question 1:
+int i=10;
+while(i){
+    cout<<i<<endl;
+    i--;
+}
+output: 
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+
+question 2.:
+int i=1;
+while(i) {
+    cout<<i<<endl;
+    i++;
+}
+output: firstly it will print upto a maximum positive range the after that it will start from -1 uto its maximum
+
+question 3:
+int i=1;
+while(i<=10) {
+    cout<<i<<endl;
+    i++;
+}
+output: 1to 10 will be printed
+
+question 4:
+int main()
+{
+    int i = 1;
+    while (i++ <= 10) firstly, condition is checked then the increment is done  
+
+    {
+        cout << i << endl;
+        i++;
+    }
+}
+output: 
+2
+4
+6
+8
+10
+
+question 5:
+while(5){
+    cout<<"hello"<<endl;--5;
+}
+this will show the error, increment and decrement operators are not used with numbers, only with constants
+
+question 6:
+int i=1
+for(){
+    cout<<i<<endl;
+    i++;
+}
+output:this is an infinite loop as the increment of i has nothing to do with for loop,no condition is given in for loop
+
+question 7:
+for(int i=1;i<=10;i++) {
+    if(i==5); continue;
+    cout<<i<<"hello world"<<endl;
+}
+output: 
+1hello world
+2hello world
+3hello world
+4hello world
+6hello world
+7hello world
+8hello world
+9hello world
+10hello world
