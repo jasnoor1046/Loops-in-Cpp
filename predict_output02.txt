@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int t=10;
+    while(t!=21) {
+        cout<<"Hello"<<endl;
+    }
+}
+OUTPUT: Hello will be printed infinitely as the condition will remain true always.
