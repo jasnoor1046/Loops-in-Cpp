@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    for(int x=1;x*x<=10;x++){
+        cout<<"In for loop"<<endl;
+    }
+}OUTPUT: "in for loop" will be printed three times as this condition will be true three times i.e., till 
+x=3, 3^2<=10 which is 9. At x=4, this loop breaks. 
