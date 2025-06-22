@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int a=15,b=20;
+    int *ptr=&a; // pointer variable ptr stores the address of a
+    int *ptr2=&b; //pointer variable ptr2 stores the address of b
+    *ptr=*ptr2; 
+    // this means we are assigning the value of what ptr2 is pointing to(which is 20), 
+    to the location ptr is pointing to(which is a). So, a got the value of b 
+}
