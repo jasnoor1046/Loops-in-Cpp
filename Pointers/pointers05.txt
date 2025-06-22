@@ -1,0 +1,8 @@
+Is the following code snippet correct?
+int a=10,b=20;
+int *ptr;
+*ptr=5;
+
+here ptr is not initialized to point to a valid memory address before dereferencing it. So, *ptr=5, write 
+to an undefined location in memory. 
+
